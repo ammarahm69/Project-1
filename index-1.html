@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Fitness GYM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<STYLE>
+body{
+    font-family: 'Ubuntu', sans-serif;
+ color: antiquewhite;
+margin: 0px;
+padding: 0px;
+background: url("img/img.jpg.jpg")
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 18px;
+    top: 20px;
+}
+.left img{
+    width: 115px;
+}
+.left div{
+    color: #0efd0f;
+    text-align: center;
+}
+
+.mid{
+    /* border: 2px solid red; */
+    display: block;
+    width: 57%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 18px;
+    top: 20px;
+}
+.navbar{
+display: inline-block;
+}
+.navbar li{
+display:inline-block ;
+font-size:16px ;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 23px;
+}
+
+.navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color: rgb(194, 242, 242);
+}
+.btn{
+    font-family:'Ubuntu', sans-serif ;
+    width:97%;
+    margin: 4px 3px;
+    background-color: #30ffa5;
+    color: #000000;
+    padding: 0px 0px;
+    border: 2px solid darkgrey;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(172, 172, 172);
+}
+
+.container {
+    margin: 72px 5px;
+    padding: 50px 102px;
+    /* border: 2px solid navajowhite; */
+    border-radius: 12px;
+    width: 50%;
+
+}
+
+.form-group input{  
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    margin: 4px 0px;
+    padding: 3px 14px 6px 23px;
+    text-align: center;
+    display: block;
+    width: 90%;
+    border: 2px solid gold;
+    border-radius: 6px;
+}
+
+
+.btn1{
+    margin: 13px 175px;
+    padding: 5px ;
+        width: 24%;
+    color: indigo;
+    background-color:rgb(242, 238, 205);
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+.btn1:hover{
+    background-color: khaki;
+}
+.container h1{
+    text-align: center;
+    color: #aae3ff;
+}
+
+</STYLE>
+<body>
+
+
+<header class="header">
+<!-- left is for logo -->
+<div class="left">
+ <img src="img/download.png" alt="">
+ <div>Monster Fitness </div>
+</div>
+<!-- mid is for navbar -->
+<div class="mid">
+  <ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Fitness Calculator</a></li>
+    <li><a href="#">Contact Us</a></li>
+</ul>
+         
+</div>
+<!-- right is for details -->
+    <div class="right">
+     <button class="btn">Call Us Now</button>
+    <button class="btn">Email Us</button>
+    </div>
+<!-- this is form -->
+<div class="container">
+<!-- <form action="noaction.php"> -->
+<h1>Join the Best GYM(KHI)</h1>
+<form action="noaction.php">
+   <div class="form-group">
+    <input type="text" name="" placeholder="Enter your name">
+   </div>
+
+   <div class="form-group">
+    <input type="text" name="" placeholder="Enter your area">
+   </div>
+
+   <div class="form-group">
+    <input type="text" name="" placeholder="Enter your phone number">
+   </div>
+   <button class="btn1">
+    Submit Now 
+   </button>   
+</form>
+
+
+
+
+</div>
+
+
+</header>
+</body>
+</html>
